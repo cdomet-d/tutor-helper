@@ -29,7 +29,11 @@ Simply execute the script by passing the desired login:
 ```bash
 bash ~/path/to/scripts/track.sh <login>
 ```
+Or execute your alias:
 
+```bash
+track <login>
+```
 The output will look like this:
 
 ```bash
