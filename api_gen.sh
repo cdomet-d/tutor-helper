@@ -2,6 +2,13 @@
 
 set -eo pipefail
 
+for var in TOSCRIPT API_UID API_SEC; do
+	if [ -z "$var" ]; then 
+		echo "[FATAL]: empty $var variable"
+		exit 1;
+	fi
+done
+
 abspath="${TOSCRIPT}".json
 declare -i expiration
 now=$(date +%s)

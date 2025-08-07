@@ -7,6 +7,11 @@ if [ $# -eq 0 ]; then
 	exit 1
 fi
 
+if [ -z "${TOSCRIPT}" ]; then 
+	echo "[FATAL]: empty TOSCRIPT variable"
+	exit 1;
+fi
+
 bash "${TOSCRIPT}"api_gen.sh
 
 if [ -t 1 ]; then
@@ -73,7 +78,7 @@ jq -r --arg now "$now" '.projects_users[]
 
 echo
 
-echo "${bold}Validated projects${normal}"
+echo "${bold}Graded projects${normal}"
 jq -r '
 	.projects_users
 	| map (select(.final_mark != null))
