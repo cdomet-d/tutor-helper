@@ -34,7 +34,7 @@ Or execute your alias:
 ```bash
 track <login>
 ```
-The output will look like this:
+The script will output in the terminal; it will look like this:
 
 ```bash
 Login     <login>
