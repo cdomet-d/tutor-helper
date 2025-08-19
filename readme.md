@@ -14,7 +14,7 @@ API_SEC=your_api_secret
 
 If you don't know how to get your 42API key and secret, please refer to [this documentation](https://api.intra.42.fr/apidoc/guides/getting_started).
 
-You should export these variables in your shell configuration so that they are alway available.
+You should export these variables in your shell configuration so that they are always available.
 
 I also recommend you create an alias on the script to simplify your workflow:
 
