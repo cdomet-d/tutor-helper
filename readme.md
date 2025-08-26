@@ -44,6 +44,11 @@ Working on
 Validated projects
 <PROJECT> | Grade: <GRADE>/100 | On [DATE]
 <PROJECT> | Grade: <GRADE>/100 | On [DATE]
+
+Evaluation logs 
+On <DATE> | Evaluated someone
+On <DATE> | Booked evaluation
+On <DATE> | Booked evaluation
 ```
 
 ## Troubleshooting
